@@ -47,4 +47,4 @@ To get started developing right away:
     ├── index.css # Global styles.
     └── index.js
 ```
-
+#### This projec is the first project of ([Udacity React Developer Nanodegree Program](https://www.udacity.com/course/react-nanodegree--nd019)) course.
