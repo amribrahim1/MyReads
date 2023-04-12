@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Redirect, Route } from 'react-router-dom';
 import * as BooksAPI from './BooksAPI';
 import './App.css';
 import ListBooks from './ListBooks';
@@ -43,6 +43,7 @@ class BooksApp extends React.Component {
                         updateBookShelf={this.updateBookShelf}
                     />
                 )} />
+                <Redirect to='' />
             </div>
         )
     }
